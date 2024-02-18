@@ -1,0 +1,3 @@
+@openzeppelin/=lib/openzeppelin-contracts/
+@upgradeable/=lib/openzeppelin-contracts-upgradeable/
+erc721a/=lib/ERC721A/

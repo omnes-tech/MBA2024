@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9; //expecificação da versão do compilador da linguagem solidity
 
-import "erc721a/contracts/ERC721A.sol"; //Quando usar o Remix importar direto do https://github.com/chiru-labs/ERC721A/blob/main/contracts/ERC721A.sol
+import "erc721a/contracts/ERC721A.sol"; 
+//Quando usar o Remix importar direto do https://github.com/chiru-labs/ERC721A/blob/main/contracts/ERC721A.sol
 import "@openzeppelin/contracts/access/Ownable.sol"; // que permite restrição de que o somente o dono do contrato pode executar determinadas funções
-import "@openzeppelin/contracts/security/Pausable.sol"; //e permite pausar determinadas funções
+import "@openzeppelin/contracts/utils/Pausable.sol"; //e permite pausar determinadas funções
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
 //import "https://github.com/chiru-labs/ERC721A/blob/main/contracts/ERC721A.sol";
