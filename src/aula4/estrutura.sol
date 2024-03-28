@@ -20,4 +20,9 @@ contract ExemploSimples {
             endereco: msg.sender
         });
     }
+
+    //consultando o dado
+    function consultName() external view returns(string memory){
+        return consultaDado.meuNome;
+    }
 }

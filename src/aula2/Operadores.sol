@@ -50,4 +50,18 @@ contract ExemploOperadores {
     function getValor() public view returns (uint256) {
         return valor; //verifique
     }
+
+    function getValorMaium() public returns (uint256) {
+        uint valorAtribuicao = 1;//podemos declarar internamente
+        return valor += valorAtribuicao; //verifique
+    }
+
+    function getValorMaium2() public returns (uint256) {
+        return valor++; //verifique
+    }
+
+
+    function getValorMenos() public returns (uint256) {
+        return valor -= 1; //podemos ja inserir no retorno
+    }
 }

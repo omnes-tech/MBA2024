@@ -25,26 +25,27 @@ contract sentencia_if {
     //Temos somente tres candidatos: Joao, Gabriela y Maria
 
     function votar(string memory _candidato) public pure returns (string memory) {
-        string memory mensaje;
+        string memory msgee;
+        //require("joao" == _candidato,"");
 
         if (keccak256(abi.encodePacked(_candidato)) == keccak256(abi.encodePacked("Joao"))) {
-            mensaje = "Quem votou corretamente foi o Joao";
+            msgee = "Quem votou corretamente foi o Joao";
         } else {
             if (
                 keccak256(abi.encodePacked(_candidato)) == keccak256(abi.encodePacked("Gabriela"))
             ) {
-                mensaje = "Quem votou corretamente foi a Gabriel";
+                msgee = "Quem votou corretamente foi a Gabriel";
             } else {
                 if (
                     keccak256(abi.encodePacked(_candidato)) == keccak256(abi.encodePacked("Maria"))
                 ) {
-                    mensaje = "Quem votou corretamente foi a Maria";
+                    msgee = "Quem votou corretamente foi a Maria";
                 } else {
-                    mensaje = "Quem votou nao esta na lista";
+                    msgee = "Quem votou nao esta na lista";
                 }
             }
         }
 
-        return mensaje;
+        return msgee;
     }
 }

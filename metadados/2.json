@@ -1,0 +1,34 @@
+{
+    "name": "SMART CONTRACTS PARA PROFISSIONAIS DO DIREITO ",
+    "description": "Primeira turma do curso de smart contracts para profissionais do Direito em que reuniu Alexandre Senra, Afonso Dalvi e Gustavo Deps como professores. Somente os holder conseguem interagir via polygonscan para retirar o material completo do curso.",
+    "external_link": "https://www.omnestech.org/",
+    "image": "https://ipfs.io/ipfs/QmScZa4PEjUVfMvFXpoSs6gDyxY8EmVaSALhoJwQC1S7vC",
+    "attributes": [{
+        "trait_type": "Smart Contract para profissionais do Direito", 
+        "value": "Alexandre Senra, Afonso Dalvi e Gustavo Deps"
+      },
+	  {
+        "trait_type": "Devs/Empresa", 
+        "value": "Afonso Dalvi - Gustavo Deps - Omnes Blockchain"
+      },
+      {
+        "trait_type": "Arte/Imagens", 
+        "value": "Adriano Felix e geradas por I.A"
+      },  
+      {
+        "display_type": "boost_number", 
+        "trait_type": "happiness", 
+        "value": 100
+      },
+      {
+        "display_type": "boost_percentage", 
+        "trait_type": "class", 
+        "value": 100
+      }, 
+      {
+        "display_type": "number", 
+        "trait_type": "Generation", 
+        "value": 1
+      }
+    ]
+  }
